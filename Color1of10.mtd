@@ -1,0 +1,66 @@
+# mtd file created by Rachid Hadj Abderrahmane#
+# elrachyd@gmail.com#
+# source here: https://github.com/ADN-DevTech/3dsMax-OSL-Shaders
+
+[node Color1of10]
+	gaffer.nodeMenu.category STRING "Surface/OSL"
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+	gaffer.layout.section.Color.collapsed BOOL false
+
+	[attr I0]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Color"	
+		label STRING "Color 0"
+	[attr I1]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Color"	
+		label STRING "Color 1"	
+	[attr I2]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Color"	
+		label STRING "Color 2"
+	[attr I3]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Color"	
+		label STRING "Color 3"	
+	[attr I4]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Color"	
+		label STRING "Color 4"	
+	[attr I5]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Color"	
+		label STRING "Color 5"	
+	[attr I6]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Color"	
+		label STRING "Color 6"
+	[attr I7]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Color"	
+		label STRING "Color 7"
+	[attr I8]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Color"	
+		label STRING "Color 8"	
+	[attr I9]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Color"	
+		label STRING "Color 9"	
+
+	[attr Index]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Color"	
+
+	[attr StartIdx]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Parameters"	
+		label STRING "Start Idx"
+	[attr Mod]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Parameters"	
+		label STRING "Range"
+	[attr Outside]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Parameters"	
+		label STRING "Outside"		

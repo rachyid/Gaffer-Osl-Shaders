@@ -1,0 +1,217 @@
+
+# mtd file created by Rachid Hadj Abderrahmane#
+# elrachyd@gmail.com#
+# source here: https://github.com/gkmotu/OSL-Shaders/blob/master/Layers.osl
+
+[node Layers] 
+	gaffer.nodeMenu.category STRING "Surface/OSL"
+	gaffer.graphEditorLayout.defaultVisibility BOOL false	
+
+	gaffer.layout.section.Layer_1.collapsed BOOL false
+
+	[attr Layer1]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_10"	
+		label STRING "Layer 10"			
+    [attr Layer1Mix]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_10"		
+		label STRING "Mix"	
+	[attr Enable1]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_10"		
+		label STRING "Enable"	
+	[attr Visibility1]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_10"		
+		label STRING "Visibility"		
+
+	[attr Layer2]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_9"		
+		label STRING "Layer 9"		
+    [attr Layer2Mix]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_9"	
+		label STRING "Mix"	
+	[attr Enable2]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_9"	
+		label STRING "Enable"
+	[attr Visibility2]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_9"	
+		label STRING "Visibility"	
+	[attr BlendMode2]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_9"	
+		label STRING "Blend Mode"
+
+	[attr Layer3]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_8"	
+		label STRING "Layer 8"		
+    [attr Layer3Mix]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_8"		
+		label STRING "Mix"	
+	[attr Enable3]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_8"		
+		label STRING "Enable"
+	[attr Visibility3]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_8"		
+		label STRING "Visibility"	
+	[attr BlendMode3]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_8"		
+		label STRING "Blend Mode"
+
+	[attr Layer4]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_7"		
+		label STRING "Layer 7"		
+    [attr Layer4Mix]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_7"	
+		label STRING "Mix"	
+	[attr Enable4]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_7"	
+		label STRING "Enable"
+	[attr Visibility4]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_7"	
+		label STRING "Visibility"			
+	[attr BlendMode4]
+			gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_7"
+		label STRING "Blend Mode"	
+
+	[attr Layer5]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_6"	
+		label STRING "Layer 6"		
+    [attr Layer5Mix]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_6"	
+		label STRING "Mix"	
+	[attr Enable5]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_6"	
+		label STRING "Enable"
+	[attr Visibility5]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_6"	
+		label STRING "Visibility"		
+	[attr BlendMode5]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_6"	
+		label STRING "Blend Mode"
+
+	[attr Layer6]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_5"	
+		label STRING "Layer 5"		
+    [attr Layer6Mix]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_5"		
+		label STRING "Mix"	
+	[attr Enable6]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_5"		
+		label STRING "Enable"
+	[attr Visibility6]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_5"		
+		label STRING "Visibility"	
+	[attr BlendMode6]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_5"		
+		label STRING "Blend Mode"
+
+	[attr Layer7]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_4"		
+		label STRING "Layer 4"			
+    [attr Layer7Mix]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_4"		
+		label STRING "Mix"	
+	[attr Enable7]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_4"		
+		label STRING "Enable"
+	[attr Visibility7]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_4"		
+		label STRING "Visibility"		
+	[attr BlendMode7]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_4"		
+		label STRING "Blend Mode"
+
+	[attr Layer8]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_3"		
+		label STRING "Layer 3"			
+    [attr Layer8Mix]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_3"	
+		label STRING "Mix"	
+	[attr Enable8]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_3"	
+		label STRING "Enable"
+	[attr Visibility8]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_3"	
+		label STRING "Visibility"		
+	[attr BlendMode8]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_3"	
+		label STRING "Blend Mode"
+
+	[attr Layer9]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_2"	
+		label STRING "Layer 2"			
+    [attr Layer9Mix]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_2"	
+		label STRING "Mix"	
+	[attr Enable9]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_2"	
+		label STRING "Enable"
+	[attr Visibility9]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_2"	
+		label STRING "Visibility"	
+	[attr BlendMode9]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_2"	
+		label STRING "Blend Mode"
+
+	[attr Layer10]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_1"	
+		label STRING "Layer 1"			
+    [attr Layer10Mix]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_1"	
+		label STRING "Mix"	
+	[attr Enable10]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_1"	
+		label STRING "Enable"
+	[attr Visibility10]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_1"	
+		label STRING "Visibility"	
+	[attr BlendMode10]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Layer_1"	
+		label STRING "Blend Mode"	
+	

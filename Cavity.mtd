@@ -1,0 +1,15 @@
+# mtd file created by Rachid Hadj Abderrahmane#
+# elrachyd@gmail.com#
+# source here: https://github.com/ADN-DevTech/3dsMax-OSL-Shaders
+
+[node Cavity]
+	gaffer.nodeMenu.category STRING "Surface/OSL"
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+	
+	[attr UV]
+		gaffer.graphEditorLayout.visible BOOL true
+		label STRING "Uv"	
+
+	[attr Filename]
+		gaffer.graphEditorLayout.visible BOOL true
+		label STRING "fileName"		

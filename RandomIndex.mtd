@@ -1,0 +1,46 @@
+# mtd file created by Rachid Hadj Abderrahmane#
+# elrachyd@gmail.com#
+# source here: https://github.com/ADN-DevTech/3dsMax-OSL-Shaders
+
+[node RandomIndex]
+	gaffer.nodeMenu.category STRING "Surface/OSL"
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+	
+	[attr InputColor]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Random Index Attributes"
+		label STRING "Input Color"
+
+
+	[attr InputNumber] 
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Random Index Attributes"
+		label STRING "Input Number"
+
+	[attr Seed]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Random Index Attributes"
+
+	[attr Min]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Random Index Attributes"
+
+	[attr Max]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Random Index Attributes"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

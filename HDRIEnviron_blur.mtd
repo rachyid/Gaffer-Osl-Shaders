@@ -1,0 +1,146 @@
+# mtd file created by Rachid Hadj Abderrahmane#
+# elrachyd@gmail.com#
+# Osl from: https://github.com/ADN-DevTech/3dsMax-OSL-Shaders/blob/master/LICENSE.txt
+
+[node HDRIEnviron_blur]
+	gaffer.nodeMenu.category STRING "Surface/OSL"
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+	gaffer.layout.section.Hdri.collapsed BOOL false	
+
+
+	[attr HDRI]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Hdri"	
+		label STRING "Hdri File"
+
+    [attr Rotation]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Hdri"	
+		gaffer.layout.index INT 0
+
+    [attr TiltX]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Hdri"	
+		label STRING "Tilt X"
+		gaffer.layout.index INT 1
+
+    [attr TiltY]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Hdri"	
+		label STRING "Tilt Y"
+		gaffer.layout.index INT 2
+
+    [attr Height]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Hdri"	
+		gaffer.layout.index INT 3
+
+    [attr Flip]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Hdri"	
+		label STRING "Mirror environment horizontally"
+		gaffer.layout.index INT 4
+ 
+ [attr Exposure]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Appearence"			
+		gaffer.layout.index INT 5	
+
+    [attr Contrast]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Appearence"		
+		gaffer.layout.index INT 6
+
+    [attr Viewport]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Appearence"			
+ 		label STRING "Viewport"
+		gaffer.layout.index INT 7
+
+    [attr Tint]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Appearence"			
+		gaffer.layout.index INT 8
+
+    [attr Clamp]
+ 		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Appearence"			
+		gaffer.layout.index INT 9
+
+    [attr ClampStops]
+ 		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Appearence"			
+ 		label STRING "Clamp Stops"
+		gaffer.layout.index INT 10
+
+    [attr GroundProjection]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Projection"			
+		label STRING "Ground Projection"		
+		gaffer.layout.index INT 11
+
+	[attr GroundCenter]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Projection"				
+		label STRING "Position"
+		gaffer.layout.index INT 12
+
+     [attr GroundRadius]
+ 		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Projection"				
+		label STRING "Tripod Height"
+		gaffer.layout.index INT 13
+
+    [attr UseBackground]
+ 		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Projection"			
+		label STRING "Use Background"
+		gaffer.layout.index INT 14
+
+	[attr BackgroundMultiplier]
+ 		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Projection"			
+		label STRING "Multiplier"	
+		gaffer.layout.index INT 15
+
+	[attr Background]
+ 		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Projection"				
+		label STRING "Map"
+		gaffer.layout.index INT 16
+
+	[attr AdditionalLight]
+ 		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Light blur"			
+		label STRING "Additional Light"	
+		gaffer.layout.index INT 17
+
+    [attr AdditionalLightMul]
+ 		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Light blur"				
+		label STRING "Additional Light Mul"	
+		gaffer.layout.index INT 18
+
+	[attr Blur]
+ 		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Light blur"				
+		label STRING "Background Blur"	
+		gaffer.layout.index INT 19
+
+    [attr BlurAmount]
+ 		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Light blur"				
+		label STRING "Blur Amount"		
+		gaffer.layout.index INT 20
+
+    [attr BlurSamples]
+ 		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Light blur"				
+		label STRING "Blur Samples"
+		gaffer.layout.index INT 21
+	[attr blur]
+ 		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Light blur"			
+		label STRING "Blur"		
+		gaffer.layout.index INT 22

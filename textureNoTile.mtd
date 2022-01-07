@@ -1,0 +1,58 @@
+# mtd file created by Rachid Hadj Abderrahmane#
+# elrachyd@gmail.com#
+# source here: https://github.com/ADN-DevTech/3dsMax-OSL-Shaders
+
+[node TextureNoTile]
+	gaffer.nodeMenu.category STRING "Surface/OSL"
+	gaffer.graphEditorLayout.defaultVisibility BOOL false	
+
+	[attr Pos]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Texture no Tile Attributes"	
+		label STRING "UV Coordinate"
+
+	[attr GradientScale]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Texture no Tile Attributes"	
+		label STRING "Gradient Scale"		
+
+	[attr Offset]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Texture no Tile Attributes"	
+		label STRING "Offset"	
+
+	[attr Rescale]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Texture no Tile Attributes"	
+		label STRING "Re Scale"			
+
+	[attr LevelCount]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Texture no Tile Attributes"	
+		label STRING "Level Count"
+
+	[attr Seed]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Texture no Tile Attributes"	
+		label STRING "Seed"
+
+	[attr Debug]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Texture no Tile Attributes"	
+		label STRING "Debug"	
+
+	[attr AutoGamma]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Texture no Tile Attributes"	
+		label STRING "Auto Gamma"	
+
+	[attr ManualGamma]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Texture no Tile Attributes"	
+		label STRING "Manual Gamma"	
+
+	[attr Filename]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Texture no Tile Attributes"	
+		label STRING "File name"
+

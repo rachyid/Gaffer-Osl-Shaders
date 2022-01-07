@@ -1,0 +1,19 @@
+# mtd file created by Rachid Hadj Abderrahmane#
+# elrachyd@gmail.com#
+# source here: https://github.com/ADN-DevTech/3dsMax-OSL-Shaders
+
+[node GetObjSpace]  
+	gaffer.nodeMenu.category STRING "Surface/OSL"
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+	gaffer.layout.section.ObjectSpace.collapsed BOOL false	
+
+	[attr Input]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "ObjectSpace"
+
+	[attr GetCoordSpace]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "ObjectSpace"
+		label STRING "Get Coord Space"	
+
+		

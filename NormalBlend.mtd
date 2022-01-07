@@ -1,0 +1,43 @@
+# mtd file created by Rachid Hadj Abderrahmane
+# elrachyd@gmail.com
+# source here: https://github.com/gkmotu/OSL-Shaders
+
+[node NormalBlend] 
+	gaffer.nodeMenu.category STRING "Surface/OSL"
+	gaffer.graphEditorLayout.defaultVisibility BOOL false	
+	gaffer.layout.section.NormalBlend.collapsed BOOL false
+
+	[attr NormalA]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "NormalBlend"	
+		label STRING "Normal A"
+	[attr NormalB]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "NormalBlend"	
+		label STRING "Normal B"
+
+	[attr Enable_NormalA]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "NormalBlend"	
+		label STRING "Ebable"	
+
+	[attr MixA]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "NormalBlend"	
+		label STRING "Mix"	
+	 
+	[attr Enable_NormalB]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "NormalBlend"	
+		label STRING "Ebable"	
+	
+	[attr MixB]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "NormalBlend"	
+		label STRING "Mix"
+
+	[attr FlipOrder]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "NormalBlend"	
+		label STRING "Flip Order"
+		

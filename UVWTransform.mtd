@@ -1,0 +1,48 @@
+# mtd file created by Rachid Hadj Abderrahmane#
+# elrachyd@gmail.com#
+# source here: https://github.com/ADN-DevTech/3dsMax-OSL-Shaders
+
+[node UVWTransform]
+ 	gaffer.nodeMenu.category STRING "Surface/OSL"
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+	
+	[attr Input]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "UVW Transform Attributes"
+
+	[attr Scale]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "UVW Transform Attributes"
+	[attr Tiling]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "UVW Transform Attributes"	
+	[attr Offset]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "UVW Transform Attributes"
+	[attr Rotate]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "UVW Transform Attributes"
+	[attr RotCenter]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "UVW Transform Attributes"
+	[attr RotAxis]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "UVW Transform Attributes"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

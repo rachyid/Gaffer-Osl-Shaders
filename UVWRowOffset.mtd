@@ -1,0 +1,32 @@
+# mtd file created by Rachid Hadj Abderrahmane#
+# elrachyd@gmail.com#
+# source here: https://github.com/ADN-DevTech/3dsMax-OSL-Shaders
+
+[node UVWRowOffset]
+	gaffer.nodeMenu.category STRING "Surface/OSL"
+	gaffer.graphEditorLayout.defaultVisibility BOOL false	
+
+	[attr Input]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "UVW Environ Attributes"	
+
+	[attr Scale]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "UVW Environ Attributes"	
+
+	[attr Tiling]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "UVW Environ Attributes"		
+
+	[attr RowCount]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "UVW Environ Attributes"		
+		label STRING "Row Count"
+	[attr Offset]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "UVW Environ Attributes"			
+
+	[attr RandomOffset]  
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "UVW Environ Attributes"		
+		label STRING "Random Offset"		
